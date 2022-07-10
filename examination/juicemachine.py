@@ -23,12 +23,12 @@ class JuiceOrder:
     def display_order(self):
         print(f"{self.menu}({self.size} * {self.price}) => {self.price}")
 
-
+#test 1
 item1 = JuiceOrder('WJ', "L")
 item1.check_menu()
-
+#test 2
 item2 = JuiceOrder('OJ', "R")
 item2.check_menu()
-
+#test 3
 item3 = JuiceOrder('PJ', "L")
 item3.check_menu()
